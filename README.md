@@ -4,6 +4,8 @@
 
 -- Envolve validação dos mesmos, como por exemplo, não pode ter 2 nomes iguais nos produtos, tags e nome/CPF de Usuário.
 
+-- Registro de erros técnicos que armazenam dentro da pasta DAO/Erro para futura manutenção.
+
 -- Ao entrar no sistema, o mesmo depará na tela de cadastro de Usuário, o mesmo deverá cadastrar para assim usufruir internamente o sistema,
     caso altere a URL sem logar, automaticamente retornará para a tela de login.
 
