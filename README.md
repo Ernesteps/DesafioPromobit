@@ -56,5 +56,5 @@ use db_promobit;
         linkedin -- https://www.linkedin.com/in/ernesto-guilherme-schramm-j%C3%BAnior-6ba5bb71/
         Ernesto Guilherme Schramm Júnior.
 
-
+Todo esse software foi utilizado um Bootstrap já pronto, chamado de AdminBSBMaterialDesign-master, PHP (8.1.1) codificação nativo, sem framework e padrão MVC.
 
