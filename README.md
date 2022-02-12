@@ -56,7 +56,5 @@ use db_promobit;
         linkedin -- https://www.linkedin.com/in/ernesto-guilherme-schramm-j%C3%BAnior-6ba5bb71/
         Ernesto Guilherme Schramm Júnior.
 
-Esse código foi estruturado a partir de um TCC que fiz, re-utilizei alguns campos e códigos para agilizar e dar a vida a esse projeto.
-
 
 
