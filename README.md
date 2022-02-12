@@ -9,6 +9,8 @@
 
 //Instruções para instalação
 
+Ao baixar o código, favor renomear a pasta DesafioPromobit-main para Promobit
+
 1º - Instalar XAMPP com MySQL
 1.1º - Abrir o Control Center do XAMPP e clicar em start o Apache e MySQL
 
