@@ -1,0 +1,233 @@
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sistemavenda`.`tb_venda_produto`, CONSTRAINT `fk_tb_venda_has_tb_produto_tb_produto1` FOREIGN KEY (`id_produto`) REFERENCES `tb_produto` (`id_produto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Data: 13/07/2021 Hora: 08:54
+Função Chamado: InserirVendaDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sistemavenda`.`tb_venda_produto`, CONSTRAINT `fk_tb_venda_has_tb_produto_tb_produto1` FOREIGN KEY (`id_produto`) REFERENCES `tb_produto` (`id_produto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Data: 13/07/2021 Hora: 08:54
+Função Chamado: InserirVendaDAO
+****************************************************************
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '200 where id_venda = '30'' at line 2
+Data: 13/07/2021 Hora: 11:09
+Função Chamado: AdicionarItemDAO
+****************************************************************
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '100 where id_venda = '31'' at line 2
+Data: 13/07/2021 Hora: 11:10
+Função Chamado: AdicionarItemDAO
+****************************************************************
+Erro: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Data: 13/07/2021 Hora: 11:13
+Função Chamado: AdicionarItemDAO
+****************************************************************
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '100 where id_venda = '33'' at line 2
+Data: 13/07/2021 Hora: 11:16
+Função Chamado: AdicionarItemDAO
+****************************************************************
+Erro: There is no active transaction
+Data: 13/07/2021 Hora: 12:52
+Função Chamado: ExcluirItemDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`sistemavenda`.`tb_venda_produto`, CONSTRAINT `fk_tb_venda_has_tb_produto_tb_produto1` FOREIGN KEY (`id_produto`) REFERENCES `tb_produto` (`id_produto`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+Data: 13/07/2021 Hora: 13:44
+Função Chamado: ExcluirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Data: 26/10/2021 Hora: 19:40
+Função Chamado: InserirClienteDAO
+****************************************************************
+Erro: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Data: 26/10/2021 Hora: 21:05
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+Data: 28/10/2021 Hora: 17:13
+Função Chamado: InserirVendaDAO
+****************************************************************
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_venda' in 'field list'
+Data: 28/10/2021 Hora: 19:50
+Função Chamado: ExcluirItemDAO
+****************************************************************
+Erro: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nome_client' in 'field list'
+Data: 03/11/2021 Hora: 19:12
+Função Chamado: InserirClienteDAO
+****************************************************************
+Erro: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inset into tb_produto_tag
+                            (tb_produto_id_produto, tb' at line 1
+Data: 11/02/2022 Hora: 16:30
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:48
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5-4' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:51
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5-4' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:52
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5-4' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:52
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5-4' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:52
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:54
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:54
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:54
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 16:56
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:00
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:06
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:06
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:06
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:18
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-4' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:19
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-4' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:20
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-4' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:20
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:22
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:24
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:25
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:25
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:27
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 17:28
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 18:02
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 18:02
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 18:29
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'tb_produto_tag.PRIMARY'
+Data: 11/02/2022 Hora: 18:30
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_produto` FOREIGN KEY (`tb_produto_id_produto`) REFERENCES `tb_produto` (`id_produto`))
+Data: 11/02/2022 Hora: 20:09
+Função Chamado: ExcluirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_tag1` FOREIGN KEY (`tb_tag_id_tag`) REFERENCES `tb_tag` (`id_tag`))
+Data: 11/02/2022 Hora: 20:24
+Função Chamado: ExcluirTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_tag1` FOREIGN KEY (`tb_tag_id_tag`) REFERENCES `tb_tag` (`id_tag`))
+Data: 11/02/2022 Hora: 20:24
+Função Chamado: ExcluirTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_tag1` FOREIGN KEY (`tb_tag_id_tag`) REFERENCES `tb_tag` (`id_tag`))
+Data: 11/02/2022 Hora: 20:24
+Função Chamado: ExcluirTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_tag1` FOREIGN KEY (`tb_tag_id_tag`) REFERENCES `tb_tag` (`id_tag`))
+Data: 11/02/2022 Hora: 20:24
+Função Chamado: ExcluirTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_tag1` FOREIGN KEY (`tb_tag_id_tag`) REFERENCES `tb_tag` (`id_tag`))
+Data: 11/02/2022 Hora: 20:26
+Função Chamado: ExcluirTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_tag1` FOREIGN KEY (`tb_tag_id_tag`) REFERENCES `tb_tag` (`id_tag`))
+Data: 11/02/2022 Hora: 20:39
+Função Chamado: ExcluirTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_produto` FOREIGN KEY (`tb_produto_id_produto`) REFERENCES `tb_produto` (`id_produto`))
+Data: 12/02/2022 Hora: 13:19
+Função Chamado: ExcluirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-2' for key 'tb_produto_tag.PRIMARY'
+Data: 12/02/2022 Hora: 13:27
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tb_tag_id_tag' cannot be null
+Data: 12/02/2022 Hora: 15:31
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'tb_tag_id_tag' cannot be null
+Data: 12/02/2022 Hora: 15:31
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_produto` FOREIGN KEY (`tb_produto_id_produto`) REFERENCES `tb_produto` (`id_produto`))
+Data: 12/02/2022 Hora: 15:33
+Função Chamado: ExcluirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Tag 2' for key 'tb_tag.nome_tag_UNIQUE'
+Data: 12/02/2022 Hora: 15:38
+Função Chamado: AlterarTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Produto 2' for key 'tb_produto.nome_produto_UNIQUE'
+Data: 12/02/2022 Hora: 15:39
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Produto 2' for key 'tb_produto.nome_produto_UNIQUE'
+Data: 12/02/2022 Hora: 15:51
+Função Chamado: InserirProdutoDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Tag 1' for key 'tb_tag.nome_tag_UNIQUE'
+Data: 12/02/2022 Hora: 15:51
+Função Chamado: InserirTagDAO
+****************************************************************
+Erro: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`db_promobit`.`tb_produto_tag`, CONSTRAINT `fk_tb_produto_has_tb_tag_tb_tag1` FOREIGN KEY (`tb_tag_id_tag`) REFERENCES `tb_tag` (`id_tag`))
+Data: 12/02/2022 Hora: 16:04
+Função Chamado: ExcluirTagDAO
