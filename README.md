@@ -9,6 +9,8 @@
 -- Ao entrar no sistema, o mesmo depará na tela de cadastro de Usuário, o mesmo deverá cadastrar para assim usufruir internamente o sistema,
     caso altere a URL sem logar, automaticamente retornará para a tela de login.
 
+-- O cadastro das tags no produto é feito ao clicar no botão Detalhes na tela de consulta de produtos
+
 //Instruções para instalação
 
 Ao baixar o código, favor renomear a pasta DesafioPromobit-main para Promobit
